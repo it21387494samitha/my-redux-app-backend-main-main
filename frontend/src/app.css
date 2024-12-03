@@ -1,0 +1,12 @@
+.main-content {
+    margin-left: 41px; /* Adjust according to the collapsed sidebar width */
+    padding: 0px;
+    transition: margin-left 0.3s;
+    
+    margin-top: 50px;
+  }
+  
+  .sidebar.open ~ .main-content {
+    margin-left: 250px; /* When sidebar is expanded */
+  }
+  

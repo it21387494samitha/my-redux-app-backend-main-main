@@ -1,0 +1,55 @@
+/* General Header Styles */
+header {
+  background: linear-gradient(to right, #34d399, #60a5fa, #9d4edd); /* Gradient background */
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+header .nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+header .nav-links a:hover {
+  color: #fbbf24; /* Yellow hover color */
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar input {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: none;
+}
+
+.search-bar svg {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .mobile-menu {
+    display: flex;
+  }
+}

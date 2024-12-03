@@ -1,0 +1,151 @@
+/* General Styles */
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url('https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-company-profile-corporate-culture-exhibition-board-display-poster-material-image_131622.jpg');
+    min-height: 97vh;
+    
+}
+
+/* Profile Card Styling */
+.profile-card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 2.5rem;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-top: 30px;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Profile Image Styling */
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #46ff6b;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-left: 130px;
+    
+}
+
+/* User Details Styling */
+.user-details h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.user-details p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-details p svg {
+    margin-right: 8px;
+    color: #466bff;
+}
+
+/* Subscription Status Styling */
+.subscription-status {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.subscription-status.active {
+    color: #28a745;
+}
+
+.subscription-status.inactive {
+    color: #dc3545;
+}
+
+/* Dark Mode Button Styling */
+.dark-mode-toggle {
+    background-color: #466bff;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.dark-mode-toggle svg {
+    margin-right: 8px;
+    margin-bottom: 20px;
+}
+
+.dark-mode-toggle:hover {
+    background-color: #6e7eff;
+    transform: translateY(-3px);
+}
+
+/* Edit Profile Button Styling */
+.edit-profile-button {
+    background-color: #466bff;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.edit-profile-button:hover {
+    background-color: #6e7eff;
+    transform: translateY(-3px);
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .profile-card {
+        padding: 1.5rem;
+    }
+
+    .profile-image img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .user-details h3 {
+        font-size: 20px;
+    }
+
+    .user-details p {
+        font-size: 14px;
+    }
+
+    .dark-mode-toggle {
+        font-size: 12px;
+        padding: 10px 18px;
+    }
+
+    .edit-profile-button {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+}

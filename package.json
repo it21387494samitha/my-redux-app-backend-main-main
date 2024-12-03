@@ -1,0 +1,40 @@
+{
+  "name": "my-redux-app-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+   "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "emailjs-com": "^3.2.0",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "firebase-admin": "^12.6.0",
+    "google-auth-library": "^9.14.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.15",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "qrcode": "^1.5.4",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
