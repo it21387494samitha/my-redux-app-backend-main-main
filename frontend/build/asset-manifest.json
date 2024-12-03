@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7cbdf87b.css",
+    "main.js": "/static/js/main.a9f567d6.js",
+    "static/js/239.df49e243.chunk.js": "/static/js/239.df49e243.chunk.js",
+    "static/js/213.d22d57fb.chunk.js": "/static/js/213.d22d57fb.chunk.js",
+    "static/js/732.2e76fc63.chunk.js": "/static/js/732.2e76fc63.chunk.js",
+    "static/js/453.a1eb4cc4.chunk.js": "/static/js/453.a1eb4cc4.chunk.js",
+    "static/media/noevent.png": "/static/media/noevent.a1ed98d1d8ea60942362.png",
+    "static/media/SLT_logo.png": "/static/media/SLT_logo.efc654ace0c926606675.png",
+    "index.html": "/index.html",
+    "main.7cbdf87b.css.map": "/static/css/main.7cbdf87b.css.map",
+    "main.a9f567d6.js.map": "/static/js/main.a9f567d6.js.map",
+    "239.df49e243.chunk.js.map": "/static/js/239.df49e243.chunk.js.map",
+    "213.d22d57fb.chunk.js.map": "/static/js/213.d22d57fb.chunk.js.map",
+    "732.2e76fc63.chunk.js.map": "/static/js/732.2e76fc63.chunk.js.map",
+    "453.a1eb4cc4.chunk.js.map": "/static/js/453.a1eb4cc4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cbdf87b.css",
+    "static/js/main.a9f567d6.js"
+  ]
+}
